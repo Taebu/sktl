@@ -1,0 +1,7 @@
+.settings
+bin
+doc
+logs
+ToUTF8
+*.zip
+*.tar

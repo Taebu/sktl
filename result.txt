@@ -1,0 +1,44 @@
+Git::SVN::Editor     (3pm)  - commit driver for git svn set-tree and dcommit
+chkfontpath         (rpm) - Simple interface for editing the font path for the X font server.
+ed                   (1)  - text editor
+ed                   (1p)  - edit text
+ed                  (rpm) - The GNU line editor.
+ed [red]             (1)  - text editor
+edquota              (8)  - edit user quotas
+emacs               (rpm) - GNU Emacs text editor
+ex                   (1p)  - text editor
+msgfilter            (1)  - edit translations of message catalog
+nano                 (1)  - Nano's ANOther editor, an enhanced free Pico clone
+nano                (rpm) - A small text editor
+pdbedit              (8)  - manage the SAM database (Database of Samba Users)
+psed                 (1)  - a stream editor
+psed [s2p]           (1)  - a stream editor
+psgml               (rpm) - A GNU Emacs major mode for editing SGML documents.
+readline             (3)  - get a line from a user with editing
+readline            (rpm) - A library for editing typed command lines.
+red                  (1)  - text editor
+red [ed]             (1)  - text editor
+rnano                (1)  - Restricted mode for Nano's ANOther editor, an enhanced free Pico clone
+sed                  (1)  - stream editor for filtering and transforming text
+sed                  (1p)  - stream editor
+sed                 (rpm) - A GNU stream text editor.
+sudo [sudoedit]      (8)  - execute a command as another user
+sudoedit             (8)  - execute a command as another user
+sudoedit [sudo]      (8)  - execute a command as another user
+tcsh                 (1)  - C shell with file name completion and command line editing
+tcsh [csh]           (1)  - C shell with file name completion and command line editing
+vi                   (1p)  - screen-oriented (visual) display editor
+vigr [vipw]          (8)  - edit the password or group files
+vim                  (1)  - Vi IMproved, a programmers text editor
+vim [ex]             (1)  - Vi IMproved, a programmers text editor
+vim [rvi]            (1)  - Vi IMproved, a programmers text editor
+vim [rview]          (1)  - Vi IMproved, a programmers text editor
+vim [rvim]           (1)  - Vi IMproved, a programmers text editor
+vim [vi]             (1)  - Vi IMproved, a programmers text editor
+vim [view]           (1)  - Vi IMproved, a programmers text editor
+vim-common          (rpm) - The common files needed by any version of the VIM editor.
+vim-enhanced        (rpm) - A version of the VIM editor which includes recent enhancements.
+vim-minimal         (rpm) - A minimal version of the VIM editor.
+vimdiff              (1)  - edit two or three versions of a file with Vim and show differences
+vipw                 (8)  - edit the password or group files
+visudo               (8)  - edit the sudoers file

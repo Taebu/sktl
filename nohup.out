@@ -1,0 +1,67 @@
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+
+--- 127.0.0.1 ping statistics ---
+4 packets transmitted, 0 received, 100% packet loss, time 3000ms
+
+sh: /home/sktl/1182/killall.sh: No such file or directory
+/home/sktl/1182/startw.sh: line 5: : command not found
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+
+--- 127.0.0.1 ping statistics ---
+4 packets transmitted, 0 received, 100% packet loss, time 2999ms
+
+/home/sktl/1182/startw.sh: line 4: /home/sktl/1182/killall.sh: No such file or directory
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+
+--- 127.0.0.1 ping statistics ---
+4 packets transmitted, 0 received, 100% packet loss, time 3000ms
+
+/home/sktl/1182/startw.sh: line 4: /home/sktl/1182/killall.sh: No such file or directory
+/home/sktl/1182/startw.sh: line 5: : command not found
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+
+--- 127.0.0.1 ping statistics ---
+4 packets transmitted, 0 received, 100% packet loss, time 3000ms
+
+/home/sktl/1182/startw.sh: line 4: kill: 32753: arguments must be process or job IDs
+/home/sktl/1182/startw.sh: line 5: : command not found
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+
+--- 127.0.0.1 ping statistics ---
+4 packets transmitted, 0 received, 100% packet loss, time 2999ms
+
+usage: kill [ -s signal | -p ] [ -a ] pid ...
+       kill -l [ signal ]
+/home/sktl/1182/startw.sh: line 5: : command not found
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+
+--- 127.0.0.1 ping statistics ---
+4 packets transmitted, 0 received, 100% packet loss, time 3000ms
+
+usage: kill [ -s signal | -p ] [ -a ] pid ...
+       kill -l [ signal ]
+/home/sktl/1182/startw.sh: line 5: : command not found
