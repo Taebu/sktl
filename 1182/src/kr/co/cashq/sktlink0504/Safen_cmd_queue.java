@@ -34,6 +34,9 @@ public class Safen_cmd_queue {
 				dao.setRs(dao.pstmt().executeQuery());
 
 				if (dao.rs().next()) {
+					
+					SKT01.heart_beat = 1;
+					
 					if (dao.rs().getInt(1) == 1) {
 						
 						dao.tryClose();

@@ -18,7 +18,7 @@ public class SKT01 {
 	
 	private static final long N600000 = 600000;//10분 = 60만초
 	// private static final boolean TEST_MODE = false;
-	private static int heart_beat = 0;
+	public static int heart_beat = 0;
 	private static int call_log_skip_count = 60;
 	private static Calendar pivotFutureTime;
 	private static long loggedTime = 0;
