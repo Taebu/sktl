@@ -1,7 +1,7 @@
 # sktl
 에듀프레임 박규선 팀장과 공동 SKTL java socket 통신 프로그램
 
-1. 동기화 방법
+1\. 동기화 방법
 ```sql
 /* 동기화 방법 업무절차 처음 sktl과 동기화 요청이 필요한 경우 */
 safen_master 테이블의 status_cd='a' 로 설정하면 된다. 1초에 한 건씩 요청하여 하루면 86400건을 처리할 수 있다.
@@ -9,7 +9,7 @@ safen_master 테이블의 status_cd='a' 로 설정하면 된다. 1초에 한 건
 /* status_cd='i' 이면서 update_dt가 하루전인데이터 */
 ```
 
-2. 번호요청
+2\. 번호요청
 ```sql
 /*업무절차 처음 <착신전화번호에 따른 안심번호 추출 요청>*/
 update safen_master set status_cd='i',safen_in='01050421183',
@@ -31,7 +31,7 @@ select @safen;
 ```
 
 
-3. 번호등록
+3\. 번호등록
 ```sql
 /*등록*/
 insert into safen_cmd_queue(safen,safen_in,create_dt) values('05041100000','01050421183',now());
@@ -44,7 +44,7 @@ insert into safen_cmd_queue(safen,safen_in,create_dt) values(@safen,'01068287822
 */
 ```
 
-4. 번호취소
+4\. 번호취소
 ```sql
 /*취소*/
 insert into safen_cmd_queue(safen,safen_in,create_dt) values('05041100000','1234567890',now());
