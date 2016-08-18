@@ -92,6 +92,7 @@ public class CallLogWorker {
 		} catch (IOException ioe) {
 			Utils.getLogger().warning(ioe.getMessage());
 			DBConn.latest_warning = "ErrPOS001";
+			disconnectCallLogServer();//서버에서 응답이 늦어지는 경우 연결을 끊고 다음에 다시 연결하기를 기약한다. 2016.08.17 오류발생 대응-> WARNING: Broken pipe
 		}
 	}
 
@@ -118,6 +119,7 @@ public class CallLogWorker {
 		} catch (IOException e) {
 			Utils.getLogger().warning(e.getMessage());
 			DBConn.latest_warning = "ErrPOS002";
+			disconnectCallLogServer();//서버에서 응답이 늦어지는 경우 연결을 끊고 다음에 다시 연결하기를 기약한다. 2016.08.17 오류발생 대응-> WARNING: Broken pipe
 		}
 
 		return strbuf.toString();

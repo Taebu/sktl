@@ -55,10 +55,12 @@ public class Safen_cmd_queue {
 						dao2.openPstmt(sb2.toString());
 
 						int resultCnt2 = dao2.pstmt().executeUpdate();
-						if(resultCnt2!=1) {
-							Utils.getLogger().warning(dao2.getWarning(resultCnt2,1));
-							DBConn.latest_warning = "ErrPOS027";
-						}
+
+						//이건 오류나 경고가 아니다
+//						if(resultCnt2!=1) {
+//							Utils.getLogger().warning(dao2.getWarning(resultCnt2,1));
+//							DBConn.latest_warning = "ErrPOS027";
+//						}
 
 						// region 3 start --->
 						StringBuilder sb3 = new StringBuilder();
@@ -73,10 +75,13 @@ public class Safen_cmd_queue {
 						dao3.openPstmt(sb3.toString());
 
 						int resultCnt3 = dao3.pstmt().executeUpdate();
-						if(resultCnt3!=1) {
-							Utils.getLogger().warning(dao3.getWarning(resultCnt3,1));
-							DBConn.latest_warning = "ErrPOS028";
-						}
+						
+						//이건 오류나 경고가 아니다
+						//if(resultCnt3!=1) {
+							//Utils.getLogger().warning(dao3.getWarning(resultCnt3, 1));
+							//DBConn.latest_warning = "ErrPOS028"; 이건 오류가 아니다.
+						//}
+						
 						// region 3 end <---
 
 						// region 4 start --->

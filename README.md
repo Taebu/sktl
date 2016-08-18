@@ -12,8 +12,12 @@ safen_master 테이블의 status_cd='a' 로 설정하면 된다. 1초에 한 건
 2\. 번호요청
 ```sql
 /*업무절차 처음 <착신전화번호에 따른 안심번호 추출 요청>*/
-update safen_master set status_cd='i',safen_in='01050421183',
-update_dt=now() where status_cd='e' and group_cd !='test' 
+update safen_master set 
+status_cd='i',
+safen_in='01050421183',
+update_dt=now() 
+where status_cd='e' 
+and group_cd !='test' 
 order by dealed_dt limit 1;
 
 update safen_master set status_cd='i',safen_in='01030372004',
